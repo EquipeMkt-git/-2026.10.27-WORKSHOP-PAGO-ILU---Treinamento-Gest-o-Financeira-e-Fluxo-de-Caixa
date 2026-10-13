@@ -7,7 +7,7 @@
  * (dados fictícios, nada é salvo) — útil para testar o visual.
  */
 window.APP_CONFIG = {
-  API_URL: '',
+  API_URL: 'https://script.google.com/macros/s/AKfycbxjqQBtK6g-l8P9_RuKX9BUn668lAVflc32v2DE5cGf4wiqxdCunVZDo_qulCSuBuOs/exec',
   NOME: 'Leads - Treinamento Gestão Financeira e Fluxo de Caixa',
   ATUALIZAR_SEGUNDOS: 60
 };
