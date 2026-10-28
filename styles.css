@@ -216,6 +216,30 @@ main { padding: 14px 16px calc(var(--nav-h) + 24px + var(--safe-b)); max-width: 
   100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); }
 }
 
+/* ---------- Ganhou no sorteio ---------- */
+.lead.sorteada {
+  border-left-color: #7A4CC2;
+  background: linear-gradient(160deg, #F6F0FF 0%, var(--card) 55%);
+  box-shadow: 0 0 0 2px #CBB4EE inset, 0 6px 18px -8px rgba(122, 76, 194, .45);
+  padding-top: 0;
+}
+.faixa-sorteio {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin: 0 -14px 2px; padding: 8px 14px;
+  background: linear-gradient(90deg, #7A4CC2, #A878E8);
+  color: #fff; font-size: 12.5px; font-weight: 800; letter-spacing: .2px;
+  border-radius: calc(var(--raio) - 2px) calc(var(--raio) - 2px) 0 0;
+}
+.faixa-sorteio .sorteio-sub { font-weight: 600; opacity: .92; font-size: 12px; }
+.premio-box {
+  border: 1.5px solid #CBB4EE; background: linear-gradient(160deg, #F6F0FF, #fff);
+  border-radius: 12px; padding: 12px 14px; margin-bottom: 14px;
+}
+.premio-top { font-size: 14px; color: var(--navy); margin-bottom: 6px; }
+.premio-box .valores { display: flex; gap: 18px; flex-wrap: wrap; }
+.premio-box .valores b { font-size: 16px; color: #5B2FA3; display: block; }
+.tag.sorteada { background: #7A4CC2; color: #fff; }
+
 /* ---------- Lead quente (ranking alto) ---------- */
 .lead.quente { border-left-color: #D93025; box-shadow: 0 0 0 1.5px #F3C2BE inset, var(--sombra); }
 
